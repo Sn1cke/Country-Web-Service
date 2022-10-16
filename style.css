@@ -1,0 +1,42 @@
+body {
+    background: #a8b679;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body > h1 {
+    padding: 0 10px;
+    color: #ffffff;
+}
+
+.countryInfo {
+    background-color: #fefae0;
+    border-radius: 1rem;
+    padding: 10px;
+    margin: 10px;
+}
+
+.countryInfo > h2 {
+    display: inline;
+} 
+
+.addCountry {
+    background-color: #fefae0;
+    border-radius: 1rem;
+    padding: 10px;
+    margin: 10px;
+}
+
+.addCountry > h2 {
+    display: inline;
+} 
+
+.countryPicker {
+    background-color: #fefae0;
+    border-radius: 1rem;
+    padding: 10px;
+    margin: 10px;
+}
+
+.countryPicker > h2 {
+    display: inline;
+} 

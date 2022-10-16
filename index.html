@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Web Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Country Web Service</h1>
+
+    <section class="countryInfo">
+        <h2>Information</h2>
+        <p id="welcome-msg">Welcome to Country Web Service! <br> Press <em>next</em> to start finding information about our stored countries.</p>
+            <ul id="cycleCountry">
+            </ul>
+        <button id="previous-btn">Previous</button>
+        <button id="next-btn">Next</button>
+    </section>
+
+    <section class="addCountry">
+        <h2>Add a country to the list</h2>
+        <form id="addCountryForm">
+            <input type="text" placeholder="Name" name="countryName" id="countryName">
+            <input type="text" placeholder="Capital name" name="countryCapital" id="countryCapital">
+            <input type="number" placeholder="Population" name="countryPopulation" id="countryPopulation">
+            <!-- <input type="file" name="countryFlag" required/> -->
+            <label for="democracy">Democracy:</label>
+            <select name="democracy" id="democracy">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+            <label for="continent">Continent:</label>
+            <select name="continent" id="continent">
+                <option value="Africa">Africa</option>
+                <option value="Antarctica">Antarctica</option>
+                <option value="Australia">Australia</option>
+                <option value="Europe">Europe</option>
+                <option value="North America">North America</option>
+                <option value="South America">South America</option>
+            </select>
+            <button id="addCountry-btn">Add country</button>
+        </form>
+    </section>
+
+    <section class="countryPicker">
+        <h2>Pick a country</h2>
+        <ul id="countryPickList">
+        </ul>
+    </section>
+
+
+
+
+     <script src="script.js"></script>
+</body>
+</html>
